@@ -4,6 +4,7 @@ import { View, Text } from 'react-native';
 export default function Map() {
   return (
     <View style={styles.container}>
+            <Text>Map</Text>
     </View>
   );
 }

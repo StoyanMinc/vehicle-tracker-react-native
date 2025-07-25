@@ -7,6 +7,7 @@ export default function Stistic() {
   console.log(user);
   return (
     <View style={styles.container}>
+            <Text>Statistic</Text>
     </View>
   );
 }
