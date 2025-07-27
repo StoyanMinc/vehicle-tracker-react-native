@@ -27,6 +27,8 @@ export default function TabLayout() {
                     tabBarStyle: {
                         borderTopWidth: 1,
                         borderTopColor: '#ccc',
+                        paddingTop: 10
+
                     },
                 }}
             >
@@ -155,6 +157,5 @@ export default function TabLayout() {
                 />
             </Tabs>
         </View>
-
     );
 }

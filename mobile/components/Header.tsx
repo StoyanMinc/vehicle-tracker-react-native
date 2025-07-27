@@ -1,7 +1,7 @@
 import { styles } from '@assets/styles/header.styles';
 import { View, Image } from 'react-native';
 import SearchIcon from '@assets/ic/search-ic.png'
-import BellIcon from '@assets/ic/map-light-ic.png'
+import BellIcon from '@assets/ic/notifications-ic.png'
 
 export default function Header() {
     return (

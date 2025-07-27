@@ -7,6 +7,7 @@ export default function Settings() {
 
     const { logout } = useAuth();
     const logoutHandler = async () => {
+        console.log('logout');
         await logout();
     }
     return (

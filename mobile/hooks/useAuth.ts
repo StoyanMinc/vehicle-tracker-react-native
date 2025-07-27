@@ -30,9 +30,9 @@ export const useAuth = () => {
     };
 
     const logout = async () => {
-
         try {
             const response = await api.get('logout');
+            console.log(response);
             return response
         } catch (err: any) {
             const message = err.response?.data?.message || 'Logout failed';

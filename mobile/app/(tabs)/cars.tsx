@@ -1,9 +1,11 @@
-import { View, Text } from 'react-native';
+import Car from '@/components/Car';
+import { styles } from '@assets/styles/cars-page.styles';
+import { View, Text, ScrollView, Image } from 'react-native';
 
 export default function cars() {
-  return (
-    <View>
-      <Text>Cars</Text>
-    </View>
-  );
+    return (
+        <ScrollView contentContainerStyle={styles.container}>
+          <Car />
+        </ScrollView>
+    );
 }
