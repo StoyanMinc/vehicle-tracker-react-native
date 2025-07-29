@@ -5,69 +5,53 @@ export const style = StyleSheet.create({
         display: 'flex',
         width: '100%',
         flexDirection: 'row',
-        paddingVertical: 10,
+        paddingVertical: 18,
         justifyContent: 'space-between',
         alignItems: 'center',
         borderBottomColor: 'gray',
         borderBottomWidth: 0.2,
+        gap: 15,
     },
-    kmContainer: {
-        display: 'flex',
-        padding: 0,
-        margin: 0
+    routeImageContainer: {
+        width: 80, // Or whatever matches your layout
+        height: 80,
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: 10,
+        overflow: 'hidden',
     },
-    speedText: {
-        color: '#707380',
-        fontWeight: 'bold',
-        fontSize: 12
-    },
-    carIcon: {
-        width: 50,
-        height: 50,
+    routeImage: {
+        width: 60,
+        height: 60,
     },
     infoContainer: {
         display: 'flex',
-        gap: 15
+        gap: 15,
     },
     statsContainer: {
         display: 'flex',
         flexDirection: 'row',
-        gap: 7
+        gap: 7,
+        alignItems: 'center'
     },
-    carNameText: {
+    routeText: {
         color: 'white',
         fontWeight: 'bold',
         fontSize: 12
-
     },
-    number: {
-        borderWidth: 1,
+    kmText: {
+        color: 'white',
+        fontWeight: 'bold',
         borderColor: '#3a3e4b',
+        borderWidth: 1,
         borderRadius: 5,
         padding: 6,
-        backgroundColor: 'black',
-        color: 'white',
+        fontSize: 12
+    },
+    dateText: {
+        color: '#368eee',
         fontWeight: 'bold',
         fontSize: 12
-
-    },
-    wheelIconContainer: {
-        display: 'flex',
-        justifyContent: 'center',
-        paddingHorizontal: 20,
-        borderWidth: 1,
-        borderRadius: 5,
-        borderColor: '#3a3e4b',
-    },
-    wheelIcon: {
-        width: 15,
-        height: 15,
-    },
-    yellowCard: {
-        width: 20,
-        height: '100%',
-        backgroundColor: 'yellow',
-        borderRadius: 5,
     },
     playButtonContainer: {
         alignItems: 'center',
