@@ -1,14 +1,18 @@
 import { styles } from '@/assets/styles/settings.styles';
-import { useUserContext } from '@/contexts/UserContext';
-import { useAuth } from '@/hooks/useAuth';
-import { View, Text, TouchableOpacity } from 'react-native';
+import Car from '@/components/Car';
+import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
 
 export default function Settings() {
 
 
     return (
-        <View style={styles.container}>
-            <Text>Settings</Text>
-        </View>
+        <ScrollView
+            style={styles.scrollView}
+            contentContainerStyle={styles.container}
+        >
+            <Car />
+            <Car />
+
+        </ScrollView>
     );
 }

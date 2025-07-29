@@ -1,31 +1,11 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
+    scrollView: {
+        backgroundColor: 'black',
+    },
     container: {
-        flex: 1,
+        flexGrow: 1,
+        padding: 16, // optional: spacing inside scroll area
     },
-    logoutContaier: {
-        width: '100%',
-        padding: 10,
-        alignItems: 'flex-end',
-    },
-    logoutButton: {
-        backgroundColor: 'gray',
-        padding: 8,
-        borderRadius: 5,
-    },
-    logoutButtonText: {
-        color: 'white',
-        fontWeight: 'bold',
-    },
-    settings: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        
-    },
-    settingsTitle:{
-        fontWeight: 'bold',
-        fontSize: 20
-    }
 })

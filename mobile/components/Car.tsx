@@ -2,7 +2,6 @@ import { View, Text, Image, TouchableOpacity } from 'react-native';
 import CarIcon from '@assets/ill/car-ill.png';
 import WheelIcon from '@assets/img/test-img.png';
 import { style } from '@assets/styles/car.styles';
-import PlayBtn from './PlayBtn';
 
 export default function Car() {
     return (
@@ -28,9 +27,6 @@ export default function Car() {
                     </TouchableOpacity>
                     <View style={style.yellowCard}></View>
                 </View>
-            </View>
-            <View>
-              <PlayBtn />
             </View>
         </View>
     );

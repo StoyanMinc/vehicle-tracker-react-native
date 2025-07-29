@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity, Image } from 'react-native';
+import { View, TouchableOpacity, Image } from 'react-native';
 import PlayIcon from '@assets/ic/right-arrow-ic.png';
 import { style } from '@assets/styles/car.styles';
 

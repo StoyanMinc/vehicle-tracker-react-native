@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
     container: {
         flexGrow: 1,
     },
-    carContainer: {
+    routeCointainer: {
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
