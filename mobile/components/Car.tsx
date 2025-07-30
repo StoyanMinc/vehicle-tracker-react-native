@@ -1,31 +1,31 @@
 import { View, Text, Image, TouchableOpacity } from 'react-native';
 import CarIcon from '@assets/ill/car-ill.png';
 import WheelIcon from '@assets/img/test-img.png';
-import { style } from '@assets/styles/car.styles';
+import { styles } from '@assets/styles/car.styles';
 
 export default function Car() {
     return (
-        <View style={style.container}>
-            <View style={style.kmContainer}>
+        <View style={styles.container}>
+            <View style={styles.kmContainer}>
                 <Image
-                    style={style.carIcon}
+                    style={styles.carIcon}
                     source={CarIcon}
                     resizeMode="contain"
                 />
-                <Text style={style.speedText}>0 km/h</Text>
+                <Text style={styles.speedText}>0 km/h</Text>
             </View>
-            <View style={style.infoContainer}>
-                <Text style={style.carNameText}>Име на автомобил име на автомобил</Text>
-                <View style={style.statsContainer}>
-                    <Text style={style.number}>РВ2219НА</Text>
-                    <TouchableOpacity style={style.wheelIconContainer}>
+            <View style={styles.infoContainer}>
+                <Text style={styles.carNameText}>Име на автомобил име на автомобил</Text>
+                <View style={styles.statsContainer}>
+                    <Text style={styles.number}>РВ2219НА</Text>
+                    <TouchableOpacity style={styles.wheelIconContainer}>
                         <Image
-                            style={style.wheelIcon}
+                            style={styles.wheelIcon}
                             source={WheelIcon}
                             resizeMode="contain"
                         />
                     </TouchableOpacity>
-                    <View style={style.yellowCard}></View>
+                    <View style={styles.yellowCard}></View>
                 </View>
             </View>
         </View>

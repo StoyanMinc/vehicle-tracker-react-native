@@ -15,5 +15,6 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-between',
         borderBottomWidth: 0.2,
         borderBottomColor: 'gray'
-    }
+    },
+
 })

@@ -1,11 +1,11 @@
 import { View, TouchableOpacity, Image } from 'react-native';
 import PlayIcon from '@assets/ic/right-arrow-ic.png';
-import { style } from '@assets/styles/car.styles';
+import { styles } from '@assets/styles/car.styles';
 
 
 export default function PlayBtn() {
     return (
-        <View style={style.playButtonContainer}>
+        <View style={styles.playButtonContainer}>
             <TouchableOpacity>
                 <Image
                     source={PlayIcon}
